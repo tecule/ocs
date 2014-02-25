@@ -1,0 +1,15 @@
+#ifndef __OCS_ERROR_
+#define __OCS_ERROR_
+
+enum ocs_error_number {
+	E_OCS_SOCKET_CREATE = 1000,
+	E_OCS_SOCKET_BIND,
+	E_OCS_SOCKET_LISTEN,
+	E_OCS_SOCKET_CONNECT,
+	E_OCS_IO_FCNTL,
+	E_OCS_IO_SELECT,
+	E_OCS_IO_TIMEOUT,
+	E_OCS_IO_WRITE
+};
+
+#endif
